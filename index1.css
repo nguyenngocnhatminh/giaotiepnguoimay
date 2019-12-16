@@ -1,6 +1,10 @@
 .restaurant{
    position:relative;
 }
+#bando{
+	top:10%;
+	left:30%;
+}
 #footer-res{
     position:relative;
     top:2300px;
