@@ -1,0 +1,655 @@
+.restaurant{
+   position:relative;
+}
+#footer-res{
+    position:relative;
+    top:2300px;
+}
+#top-res {
+    position:relative;
+    top: 2200px;
+}
+
+.navigation{
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	background:#EB5757;
+}
+
+.navbar-brand{
+	position: absolute;
+	width: 110px;
+	height: 75px;
+	left: 20Px;
+	top: 0px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	line-height: 75px;
+
+	text-align: center;
+	font-feature-settings: 'dnom' on;
+	color: #FF0000;	
+	text-shadow: -1px 0 black, 0 1px black, 3px 0 black, 0 -1px black;
+	    text-decoration: none;
+}
+
+.textbox{
+	position: absolute;
+	width: 430px;
+	height: 40px;
+}
+
+#searchbox{
+    position:absolute;
+	left: 240px;
+	top: 20px;
+}
+#nearbox {
+    position: absolute;
+    left: 680px;
+    top: 20px;
+}
+#button_search
+{
+	position: absolute;
+	width: 47px;
+	height: 43px;
+	left: 1170px;
+	top: 20px;
+	border:none;
+	background: url(~/images/image-3.png);
+}
+
+.button{
+	position: absolute;
+	width: 80px;
+	height: 30px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#login{
+	left:1250px;
+	top:25px;
+	    text-decoration: none;
+}
+
+#singup{
+	left:1350px;
+	top:25px;
+	    text-decoration: none;
+}
+
+.card {
+    position: absolute;
+    width: 90%;
+    height: 410px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #d7d7d7;
+}
+
+.content{
+	background: #E5E5E5;
+}
+
+#info{
+	left:5%;
+	top: 110px;
+}
+
+#booking
+{
+	left:5%;
+	top:559px;
+}
+
+.res-info {
+    position: absolute;
+    width: 90%;
+    height: 600px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #d7d7d7;
+}
+
+.related{
+	width:90%;
+	height:400px;
+	background: #fff;
+
+	position: absolute;
+	top:1850px;
+	left:5%;
+}
+
+#res-info2{
+	top:1000px;
+	left:5%;
+}
+
+#hinhto{
+	position: absolute;
+	width: 580px;
+	height: 265px;
+	left: 50px;
+	top: 10px;
+	background: url(images/hinhto.png);
+}
+#hinhnho1{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 50px;
+	top: 280px;
+	background: url(images/hinhnho1.png);
+}
+
+#hinhnho2{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 170px;
+	top: 280px;
+	background: url(images/hinhnho2.png);
+}
+
+#hinhnho3{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 290px;
+	top: 280px;
+	background: url(images/hinhnho3.png);
+}
+
+#hinhnho4{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 410px;
+	top: 280px;
+	background: url(images/hinhnho1.png);
+}
+
+#hinhnho5{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 530px;
+	top: 280px;
+	background: url(images/hinhnho2.png);
+}
+
+#Name{
+	position: absolute;
+	width: 530px;
+	height: 45px;
+	left: 800px;
+	top: 10px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+
+	color: #EB5757;
+
+}
+
+#rate_star{
+	position: absolute;
+	left:1000px;
+	top:60px;
+}
+
+.checked {
+	color: orange;
+
+}
+
+.thongtin{
+	position: absolute;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+
+	color: #000000;
+}
+
+#diachi{
+	
+	left: 800px;
+	top: 100px;
+}
+#loai
+{
+	font-weight:bold;
+	left:800px;
+	top:140px;
+}
+
+#clock{
+	position:absolute;
+	left:800px;
+	top:180px;
+}
+#tinhtrang{
+	left:850px;
+	top:185px;
+}
+#giomocua{
+	left:1000px;
+	top:185px;
+}
+#price{
+	position:absolute;
+	left:800px;
+	top:220px;
+}
+#giatien{
+	left:850px;
+	top:225px;
+}
+#hotline{
+	position: absolute;
+	left:800px;
+	top:300px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	color: #EB5757;
+}
+.Uudai{
+	position: absolute;
+	left:5%;
+	top:10px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;	
+
+	color: #EB5757;
+}
+
+.Thoigian{
+	position: absolute;
+	width: 90%;
+	height: 100px;
+
+	border-style:groove;
+}
+
+#Uudai1{
+	top:60px;
+	left: 5%;
+}
+#Uudai2{
+	top:180px;
+	left:5%;
+}
+#Uudai3{
+	top:300px;
+	left:5%;
+}
+.giamgia{
+	height: 100%;
+	width:150px;
+	background:#d02028;
+}
+.phantram{
+	position: absolute;
+	top:30px;
+	left:40px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;	
+	text-align: center;
+	color: #FFFFFF;
+}
+.detail-info{
+	position: absolute;
+	left:5%;
+	top:20px;
+}
+
+#related-res{
+	position: absolute;
+	left:45%;
+	top:20px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;	
+
+	color: #EB5757;
+}
+
+.nhahang1{
+	position: absolute;
+	top:70px;
+	left:15%
+}
+.nhahang2{
+	position: absolute;
+	top:70px;
+	left:40%
+}
+.nhahang3{
+	position:absolute;
+	top :70px;
+	left:65%;
+}
+
+.time_button {
+    width: 10%;
+    height: 50%;
+
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    font-family: Roboto;
+
+    text-align:center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    background-color: #EB5757;
+}
+#time1{
+	position:absolute;
+	top:20px;
+	left:200px;
+}
+#time2{
+	position:absolute;
+	top:20px;
+	left:400px;
+}
+#time3{
+	position:absolute;
+	top:20px;
+	left:600px;
+}
+#time4{
+	position:absolute;
+	top:20px;
+	left:800px
+}
+#time5{
+	position:absolute;
+	top:20px;
+	left:1000px;
+}
+
+#time6{
+	position:absolute;
+	top:20px;
+	left:200px;
+}
+#time7{
+	position:absolute;
+	top:20px;
+	left:400px;
+}
+#time8{
+	position:absolute;
+	top:20px;
+	left:600px;
+}
+#time9{
+	position:absolute;
+	top:20px;
+	left:800px
+}
+#time10{
+	position:absolute;
+	top:20px;
+	left:1000px;
+}
+
+#time11{
+	position:absolute;
+	top:20px;
+	left:200px;
+}
+#time12{
+	position:absolute;
+	top:20px;
+	left:400px;
+}
+#time13{
+	position:absolute;
+	top:20px;
+	left:600px;
+}
+#time14{
+	position:absolute;
+	top:20px;
+	left:800px
+}
+#time15{
+	position:absolute;
+	top:20px;
+	left:1000px;
+}
+
+.bg-modal {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 3px #666666;
+    color: #000000;
+    margin-right: 0px;
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left:0px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal-contents {
+    height: 600px;
+    width: 900px;
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+    border-radius: 4px;
+    border-color:white;
+}
+
+#xacnhan {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #EB5757;
+    top:10px;
+    left:5px;
+}
+
+.logo_res {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+
+
+.Res_name {
+    position:absolute;
+    top: 70px;
+    left: 350px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #EB5757;
+}
+
+.thoigianden{
+    position:absolute;
+    top:120px;
+    left:350px;
+}
+.thoigiandi{
+    position:absolute;
+    top:170px;
+    left:350px;
+}
+.giatien {
+    position: absolute;
+    top: 220px;
+    left: 350px;
+}
+.booking {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+}
+.popup2{
+    position:absolute;
+    left:0px;
+    top:320px;
+    width:100%;
+}
+
+.booking_info {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+}
+.hoten{
+    position:absolute;
+    left:100px;
+    top:0px;
+}
+.sdt{
+    position:absolute;
+    left:100px;
+    top:50px;
+}
+.songuoi{
+    position:absolute;
+    left:100px;
+    top:100px;
+}
+.Ghichu {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+.txt_info {
+    position:absolute;
+    left:200px;
+    width: 550px;
+    height: 40px;
+    background: #FFFFFF;
+
+}
+.xacnhan{
+    position:absolute;
+    left :300px;
+    top:220px;
+}
+.btn_Xacnhan {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #EB5757;
+}
+
+.txt_info {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+}
+#complete_icon{
+    position:absolute;
+    left:40%;
+    top:30%;
+}
+#complete_ {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 50px;
+    color: #333333;
+}
+
+#location{
+    position:absolute;
+    top:1650px;
+    left:5%;
+}
+#address{
+    position:absolute;
+    top:60px;
+    left:5%;
+}
+#bando{
+    position:absolute;
+    top:100px;
+    left:20%;
+}
